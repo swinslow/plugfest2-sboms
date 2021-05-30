@@ -1,0 +1,52 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: zephyr-hello-world-bin
+DocumentNamespace: https://example.com/whatever/testdata-zephyr-hello-world-bin-04a489679172610f43603e72abb1f11ea08e5ebf
+Creator: Tool: github.com/spdx/tools-golang/builder
+Creator: Tool: github.com/spdx/tools-golang/idsearcher
+Created: 2021-05-30T17:38:19Z
+
+##### Package: zephyr-hello-world-bin
+
+PackageName: zephyr-hello-world-bin
+SPDXID: SPDXRef-Package-zephyr-hello-world-bin
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 04a489679172610f43603e72abb1f11ea08e5ebf
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: /zephyr.bin
+SPDXID: SPDXRef-File0
+FileChecksum: SHA1: 1f90d514e894420d9bb85e4d4b84903d80a71f6d
+FileChecksum: SHA256: 40cb474c6d9baf205adccc71dfebbdff7889396db6b710b47c321a1c6e1950ee
+FileChecksum: MD5: 919d91e685579a9fc0c6f63759f3e33b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr.elf
+SPDXID: SPDXRef-File1
+FileChecksum: SHA1: 08c37907ab4034d2698713ad70667f0891751511
+FileChecksum: SHA256: 9fc22f78bf6ab2f8539f2ee5cf3945251be6604684c653f15a1784c7bd2dc3e1
+FileChecksum: MD5: 71b49f6780a01969e054b0784ae2ca98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr.hex
+SPDXID: SPDXRef-File2
+FileChecksum: SHA1: 2e4103af4c728c44448114857da0b04726759702
+FileChecksum: SHA256: 18e7535fa4c9eec382c05020bd3b8e97a3768aacb2dde5c070fa0be92ab765ba
+FileChecksum: MD5: fa0f86aad39c7ed784966cc0b4ea292b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Relationships
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zephyr-hello-world-bin
+
