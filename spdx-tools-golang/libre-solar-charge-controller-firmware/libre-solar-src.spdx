@@ -1,0 +1,1799 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libre-solar-charge-controller-firmware
+DocumentNamespace: https://example.com/whatever/testdata-libre-solar-charge-controller-firmware-e70957bc17d99ff420c0f5f5b34ba3f6e45a8dce
+Creator: Tool: github.com/spdx/tools-golang/builder
+Creator: Tool: github.com/spdx/tools-golang/idsearcher
+Created: 2021-05-30T17:23:31Z
+
+##### Package: libre-solar-charge-controller-firmware
+
+PackageName: libre-solar-charge-controller-firmware
+SPDXID: SPDXRef-Package-libre-solar-charge-controller-firmware
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: e70957bc17d99ff420c0f5f5b34ba3f6e45a8dce
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseInfoFromFiles: BSD-2-Clause
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: /.gitattributes
+SPDXID: SPDXRef-File0
+FileChecksum: SHA1: 4a3348fc9a3d1ec1bc517399089440028e2242fd
+FileChecksum: SHA256: bdbd68b106767972511720c3034130c2ffc1862c5abc29bfe110bf82c5137383
+FileChecksum: MD5: 01c2ba45b8ce4cb9d870b39204aae551
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /.gitignore
+SPDXID: SPDXRef-File1
+FileChecksum: SHA1: a817a5adae2ce516421a8ac40896126ba6c4c809
+FileChecksum: SHA256: b56ff708e3ba012e3148e73b57b5660636cddc4655aef961e9cdeaa5d12c31de
+FileChecksum: MD5: 1e524250bb17f38a51fb07fac7b1eba3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/Kconfig.board
+SPDXID: SPDXRef-File10
+FileChecksum: SHA1: 404ec5682b5033e6b4bcafcf214ce83fa25d1d08
+FileChecksum: SHA256: f4a19dda9d4a4d58fef4cd0191aed2fee635fb72b0c9bbff1dfc036ec5c0b94f
+FileChecksum: MD5: 36c1dc45deab5e03923b65c1aae46e4b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/.travis.yml
+SPDXID: SPDXRef-File100
+FileChecksum: SHA1: 0ef2331ba091aadb64d1393dff51e1a79f04c424
+FileChecksum: SHA256: 968d181d0a54224005125c1e4bca36d8585a03018228bdabff8653d8dd57ef63
+FileChecksum: MD5: f0f77db529db9200091abfc918fa0315
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/CMakeLists.txt
+SPDXID: SPDXRef-File101
+FileChecksum: SHA1: 396064529ecc9a577847a5ee74cb2e53aeea4d31
+FileChecksum: SHA256: f05251d1d2fca74919751e15f70415990e810e7c56b76c9dba6433411dd516e6
+FileChecksum: MD5: 8d8aca0404d2968012b6936e96408b96
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/Doxyfile
+SPDXID: SPDXRef-File102
+FileChecksum: SHA1: 04e1d8bd05278d3894d735c7e10315470fc94a1f
+FileChecksum: SHA256: c8d7613f3508b0120d5be60733fb109eb9afb8478b0c70611a55b1cb4087d1d9
+FileChecksum: MD5: 49c721a2676ad410e61d073547113043
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/LICENSE
+SPDXID: SPDXRef-File103
+FileChecksum: SHA1: 7df059597099bb7dcf25d2a9aedfaf4465f72d8d
+FileChecksum: SHA256: c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4
+FileChecksum: MD5: 86d3f3a95c324c9479bd8986968f4327
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/README.md
+SPDXID: SPDXRef-File104
+FileChecksum: SHA1: 4108807e381ef92bafc2063889c6edb8fc614607
+FileChecksum: SHA256: ecd898ff28364bfe6ed7d5f45243181b3aa713e769d0105610d3c14dc6b4ebfb
+FileChecksum: MD5: fae8aa8e31e2d560c45dfbacf5595aac
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/.gitignore
+SPDXID: SPDXRef-File105
+FileChecksum: SHA1: 06fb2d673feceba379cb5717fc9d1118cb68db58
+FileChecksum: SHA256: 0707353f7e67fa24d02e1f8f753173d8e20eda25ecebb0f72d17ee333a79f87e
+FileChecksum: MD5: 4977e3284f792445de471202b5eb2a21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/LICENSE
+SPDXID: SPDXRef-File106
+FileChecksum: SHA1: 3bd655bcdbe6f4f14e9da385f1953c50dd89ea8e
+FileChecksum: SHA256: efe1692aa5b869edaa0ac88f95eb0276c1125304ffc636a299db3ebbab47f62b
+FileChecksum: MD5: faa55ac8cbebebcb4a84fe1ea2879578
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/Makefile
+SPDXID: SPDXRef-File107
+FileChecksum: SHA1: fe03bbc25147161d2faf6c5d5da86828b78ab828
+FileChecksum: SHA256: f758dd0b0db5509c54d6e5bfbc554523f7bd3fd69b7124112db1756c4556e1f9
+FileChecksum: MD5: eb144a66a01e054d6bfd6d81de1794fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/README.markdown
+SPDXID: SPDXRef-File108
+FileChecksum: SHA1: ce4fba9baef2a3c529d87dd837f1c99437879b35
+FileChecksum: SHA256: 3bf8a7aed233b1bbf5ec932dd41254e4d380ec03b36855945277ff13d34bf781
+FileChecksum: MD5: 9ce4a7a75237bfb8323b0a9b1d56ce15
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/example.c
+SPDXID: SPDXRef-File109
+FileChecksum: SHA1: 991b9856299cedd186b4b91c36a48eb0529232d3
+FileChecksum: SHA256: fe145ec587e4ce022fea951e7de11850949e319b57d328eeb6dd082ed1e66604
+FileChecksum: MD5: 112d870f2d9050ac66b1f160220d4f98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/Kconfig.defconfig
+SPDXID: SPDXRef-File11
+FileChecksum: SHA1: f4dd49ff017ddae6666be2f92402dc3fbb679e77
+FileChecksum: SHA256: bb04ca69eafc379b3988d8884bd3bbf66530175c9bdcc3806e3c99b92c126c35
+FileChecksum: MD5: 69fa45c1510ebd4f62b20913a34b0d60
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/linenoise.c
+SPDXID: SPDXRef-File110
+FileChecksum: SHA1: 76597e697a956635fceb2b05ad61e7dfddb1c7e5
+FileChecksum: SHA256: 22c6ee3bcf69c96e8c51a95e352f85e0e4d848e5378cf2a9399925fe318fd4be
+FileChecksum: MD5: 3ce3ec9b66459b7929a86bf5addd30f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/lib/linenoise/linenoise.h
+SPDXID: SPDXRef-File111
+FileChecksum: SHA1: bdc83ff036332c4d3057dec8f362e65c81106e0d
+FileChecksum: SHA256: 6e547da11f3aa404d0f608f37d9f7890d55784d2dcd0ce3d7f6e2d86f46058a8
+FileChecksum: MD5: 207f507b6b65bec7ed19faad8e760e1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/library.json
+SPDXID: SPDXRef-File112
+FileChecksum: SHA1: dad93d3d48d497019613d167a00d132fbccd98d7
+FileChecksum: SHA256: 77280d22564308f86c107cb24a949b6ae6fe8fe27d0283e9f4938f13ca0bbe9f
+FileChecksum: MD5: cdff3cdcfc0ddf7bd8acc96913693d86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/linker_flags_newlib-nano.py
+SPDXID: SPDXRef-File113
+FileChecksum: SHA1: dec5abba46a7f9647331166a085c2647deed7823
+FileChecksum: SHA256: c64c577cc760caf09f41d70d55a180dc689844f8c6407be1fd073e2c9904ab5a
+FileChecksum: MD5: ddb0cec969f458d3fc80382ae98ac78b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/platformio.ini
+SPDXID: SPDXRef-File114
+FileChecksum: SHA1: e9c94e908c066a68910f6927126cab070aa1fd00
+FileChecksum: SHA256: 126b60a13dcc9fc624581b958630729b49b3c7ae8d0466a55e3c83ffcf5388d5
+FileChecksum: MD5: aed2260ee6026612c96ef1cfac43c305
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/cbor.c
+SPDXID: SPDXRef-File115
+FileChecksum: SHA1: 872d4dbed94a220e7fdb6ea56b3918c5003242bc
+FileChecksum: SHA256: 5cec49177607df31ff44a251e83ffef0d93903cbb363e2e2ea0c92bc69025bbf
+FileChecksum: MD5: 7b408d2d6b98094cc63794011ca8523c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/cbor.h
+SPDXID: SPDXRef-File116
+FileChecksum: SHA1: d047a29d2eebcef50be99c916ecadd2e41e698db
+FileChecksum: SHA256: 60d8b0584f2d8f17aa6dc019233c50b54780f7de0e9570655620b92e710d74aa
+FileChecksum: MD5: 3babb701e8cb9b312e4aa24f6428cd90
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/jsmn.c
+SPDXID: SPDXRef-File117
+FileChecksum: SHA1: 147e90d7bb932a02fe33773769e2e0aad1b953a1
+FileChecksum: SHA256: fc4784bcd56d68ed511af4c22219e90c687f5576cec981d86f048347ff936529
+FileChecksum: MD5: e2011307154adc8262673d9add020468
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/jsmn.h
+SPDXID: SPDXRef-File118
+FileChecksum: SHA1: 07544f4a4a41c625d5be2b33354f67f9db6e35fa
+FileChecksum: SHA256: 4a4425d835c9059dc6b65478cda29e2848a0ffcf2c3436f8d5d28ca857159896
+FileChecksum: MD5: 845191bdea0bdabb5411366100ff1ccd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/main.cpp
+SPDXID: SPDXRef-File119
+FileChecksum: SHA1: f8d63c0b2404d5ab207d246be23a7bdc2dfc9731
+FileChecksum: SHA256: 1d1877b78a743769779ca0f598ce510c182d2d97708ececfe651fef84858b32d
+FileChecksum: MD5: 12f506e3d3cb76d6b29631c86f2e0a8f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/board.cmake
+SPDXID: SPDXRef-File12
+FileChecksum: SHA1: 58c3d3929ab85f3a24fbedb947f280ebf662f02a
+FileChecksum: SHA256: 966a8ca92d22c13d797461934379673fcca6286df8b49cb2a80cdfacc7decf42
+FileChecksum: MD5: 669ddab160c6b6beaf20f1f5f2e1e472
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/thingset.cpp
+SPDXID: SPDXRef-File120
+FileChecksum: SHA1: 1b1ffe728c2bea5aeda1c0a3ad2708ab9ff1de74
+FileChecksum: SHA256: fc1a68e1280539b5d38ed8755e061848cdc04b8ed8c928ddefeea29d16b62557
+FileChecksum: MD5: 15b49dadeb7afdbb6dea0e9793531919
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/thingset.h
+SPDXID: SPDXRef-File121
+FileChecksum: SHA1: a4806d7e16c8335a955c229a7733b030ea9a057c
+FileChecksum: SHA256: 4755457f36ce78e2cadfc3e797c9c1b33860625f39be3d6e64fd55ba4839e0eb
+FileChecksum: MD5: 8351d830ed24f137200565be75d06af2
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/thingset_bin.cpp
+SPDXID: SPDXRef-File122
+FileChecksum: SHA1: 9acee4d6e757d090d038039fd4d85376837ec9e0
+FileChecksum: SHA256: 9a9e76179b45814676af4238a6fd9d190f4137a8b5d4a9b5b05c41cc3393afd1
+FileChecksum: MD5: 088ba79f381550c3e5dcdda162f8ec8e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/thingset_txt.cpp
+SPDXID: SPDXRef-File123
+FileChecksum: SHA1: 82b56589bcb5bed7218ab86c132ee1457c4e680d
+FileChecksum: SHA256: 4201a2a51edf3aabd0cf320de35b71ed636a2411373c3bb1f5b2361482c1e943
+FileChecksum: MD5: e1da2730ec01139a27e2555bd039c97e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/src/ts_config.h
+SPDXID: SPDXRef-File124
+FileChecksum: SHA1: d0cc65ca010a6cea3566d0786fff3d3cea249d97
+FileChecksum: SHA256: 84be553bb0cc052a02871e056118e27b93a4636cb36b484a74e4586e591021ff
+FileChecksum: MD5: 3b3118ad2089a85f826823f77a167851
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/main.cpp
+SPDXID: SPDXRef-File125
+FileChecksum: SHA1: 7015d4961927d16df025dc90612d05c9152cced1
+FileChecksum: SHA256: 97fc087f29d3dfa8759a10dca097b19d315e6b4d1e46b8e9219fe4617ad34066
+FileChecksum: MD5: 58ce27105af2c2278e91041da9df8689
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/test_data.h
+SPDXID: SPDXRef-File126
+FileChecksum: SHA1: 3471ff52cb5e280ace5827484c56d7bf71bee36d
+FileChecksum: SHA256: f393c10cde1ae697c2457384ef0b7d45f17b5c605ca5d474f02cf82b6ad592f0
+FileChecksum: MD5: 27df0ac4e45b62734b4388455d9b4084
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/test_functions.h
+SPDXID: SPDXRef-File127
+FileChecksum: SHA1: f4ff685138dca42a12495703d66af490b60b0650
+FileChecksum: SHA256: 7c6c7e92587dd5490dadd9a469af1884e656be76e9719a76e6eafa64683da76a
+FileChecksum: MD5: e628a1d56f932f9a40388d3050eda321
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/tests.h
+SPDXID: SPDXRef-File128
+FileChecksum: SHA1: d23c2717852b039d7ec13f010feeaf70c87690b3
+FileChecksum: SHA256: c2e87b3bd4f356c0dfea39c514a4d0d1d6f3ec524869e0be14a7ade9b455d224
+FileChecksum: MD5: 64e10e64ac7734bb6492f6e7c8e0d00f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/tests_bin.cpp
+SPDXID: SPDXRef-File129
+FileChecksum: SHA1: 227a6faa163301503732432f0e44b766ca4a6de8
+FileChecksum: SHA256: e1e3651585673c90325fd06ce0555744714f613acf2a57558670d9594680b72b
+FileChecksum: MD5: d05de65245d0f730d8e5aa0bba90ea8f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus.dts
+SPDXID: SPDXRef-File13
+FileChecksum: SHA1: 8db171802a906675d029ac4435790ee5f2b5cd88
+FileChecksum: SHA256: 64acc00f4bbfca848050f03d1170abb103537eba498a75fd4a1d89bcee212e72
+FileChecksum: MD5: 9d2fab36898ea1db0971ab7ecefc49e6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/tests_common.cpp
+SPDXID: SPDXRef-File130
+FileChecksum: SHA1: 4b75d10feaff69725ed80d3313951b3b76d210fa
+FileChecksum: SHA256: 8038c103de8301d73feceb5d5771af8f72c96874be6847f6ebb064d528c48610
+FileChecksum: MD5: 54d157b9b0fa8b4fd3ada7c79e677961
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/test/tests_txt.cpp
+SPDXID: SPDXRef-File131
+FileChecksum: SHA1: 0de18da75aca132d8730033d866e87e218d6e849
+FileChecksum: SHA256: 9570c2894ee41b8cac61bc9a51ac93cf64118c3874bf28c4c4bb3b503b57b980
+FileChecksum: MD5: a0186226bf1a7905664d7602f58f0244
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /platformio-extra.py
+SPDXID: SPDXRef-File132
+FileChecksum: SHA1: 2d16fa6115f4be614fa5daf9776fa8eccab71724
+FileChecksum: SHA256: 2c8e1e136b8d17d53db834837abaa65348caac24d9c1eae31991e8468d7e5182
+FileChecksum: MD5: cb8fa924a8fa14eb3dd8a965258d8472
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /platformio.ini
+SPDXID: SPDXRef-File133
+FileChecksum: SHA1: 982e1e7daaa31660cc582b170556516be41cb626
+FileChecksum: SHA256: b1a4b87630bbc3c0ad53044583f280cdc657b93ca7973749bd8f5dae46fc6862
+FileChecksum: MD5: 1f96ddc5495f94220c58af236686f73a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /src/CMakeLists.txt
+SPDXID: SPDXRef-File134
+FileChecksum: SHA1: ee91a319f5562e053a46e9778bc7382bd062c112
+FileChecksum: SHA256: 310f76f1ba1b829b1b73b633a7484638da9d8c2893e935dbcbd8fcca0dd3c6bb
+FileChecksum: MD5: 7640bda40c1e665cef7c9b1bf2eda6cb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/bat_charger.cpp
+SPDXID: SPDXRef-File135
+FileChecksum: SHA1: d001e0d09ab60348dfd58a3c4dd2b736bfbba86e
+FileChecksum: SHA256: 4bbbaa8c2e6c881ed6085f445637a9df20603b30d91e192b6bab4d492b685d37
+FileChecksum: MD5: d98c3e926a040475c7fafa8e7b2b954d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/bat_charger.h
+SPDXID: SPDXRef-File136
+FileChecksum: SHA1: 33e0382b12ca5708302e2ee7c006eb25e28ccd35
+FileChecksum: SHA256: 26540eccf3158866b55d6363c79dca77b6557951a8641e8d37eabb1e605f9567
+FileChecksum: MD5: 95239ba43f8fbec698a5d3eac0d86055
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/board.h
+SPDXID: SPDXRef-File137
+FileChecksum: SHA1: 93e93cb22cdeacb304f834aa72c4937957ff25c0
+FileChecksum: SHA256: 41a75fe59b39f008afe7409b8a95c59357aac11da5828e84d6bb7c13bdefed1c
+FileChecksum: MD5: bf511373b2f0677784f09a9e0ce03bac
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/daq.cpp
+SPDXID: SPDXRef-File138
+FileChecksum: SHA1: b6068e6192f94dec28ac0c5e7797a20abcf36f78
+FileChecksum: SHA256: 45450f1028d266db35ca40fc59618e57f68ca45eff7e35fcc16e9ba311ddf684
+FileChecksum: MD5: 47d0ce0b155365747c4fe96fd54b65e6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/daq.h
+SPDXID: SPDXRef-File139
+FileChecksum: SHA1: 05f2b792e761680155e9e20abcb32345eebbc61f
+FileChecksum: SHA256: 5db783f3bf7c9e1ed96a3ea9b71142a30ce1a5585194bc8d87fe1bff4d2b46a9
+FileChecksum: MD5: a832083e64dd3e6bb386b0216addf8e9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus.yaml
+SPDXID: SPDXRef-File14
+FileChecksum: SHA1: 6c5e6cdc21b1e0ed0567803552cba29eee9936c0
+FileChecksum: SHA256: 2bb8a653c4a8b07ff7aa627797183f94c1c53c62ae0cb1fd7393eed4e84d9b70
+FileChecksum: MD5: da36d419732cb023d1c18aa0f594afa7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /src/daq_driver.c
+SPDXID: SPDXRef-File140
+FileChecksum: SHA1: 94a34e7db87fc6c65b69e131edff0121a89ff467
+FileChecksum: SHA256: afb62aae88a42a82b39d9f92e45a0ea5a3b67de51613ecb26bc4844b92353e32
+FileChecksum: MD5: e3762666e06e87208a91e74b0df7cb24
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/data_nodes.cpp
+SPDXID: SPDXRef-File141
+FileChecksum: SHA1: c381f2e1b1564799b110449023d57a226ae1e928
+FileChecksum: SHA256: f44aacec6d9892afb6382a1714e86dc68e6296b788845468cd5e38ef135d9561
+FileChecksum: MD5: 53d09efbb2f4dbff63662b72030926c8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/data_nodes.h
+SPDXID: SPDXRef-File142
+FileChecksum: SHA1: 78c1c9f2fef09244318210da6121ddd99ec3210e
+FileChecksum: SHA256: ced58a49df14f5018c8c5f49c1f6aa496a94750be9f7bfe3b38681af94a979e3
+FileChecksum: MD5: 4343408e68dbaf1c4ce02828193b56ce
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/data_storage.cpp
+SPDXID: SPDXRef-File143
+FileChecksum: SHA1: 0e40430fe2331aa272922029fcc8c54c9899e641
+FileChecksum: SHA256: 8abd919b68082e7a45b9e85e4461e5908bd51ecdd36b8d4cbcc2dceeca52f87c
+FileChecksum: MD5: 2eba16987a4429ad83aa3b798b64eb9a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/data_storage.h
+SPDXID: SPDXRef-File144
+FileChecksum: SHA1: 54ebcdc77292af7333dc6bc0f1de6a2199165cc7
+FileChecksum: SHA256: c6814251a53ac0525173c5d9f795969a76398ba9fdf3c23f92baac088dcbf72b
+FileChecksum: MD5: c77aed1093063b37c665f245567d87ac
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/dcdc.cpp
+SPDXID: SPDXRef-File145
+FileChecksum: SHA1: de7f3aedade125e89e73fe16b49ffc197b7a4a6b
+FileChecksum: SHA256: f6adb51544fe0ba994825567b4e8f89fd13e5cafeef50983d5d7d08a646016df
+FileChecksum: MD5: 63277c96492e29fb16e3451f183190bb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/dcdc.h
+SPDXID: SPDXRef-File146
+FileChecksum: SHA1: d474d6098e1616eab254f1959aa57508e3615c56
+FileChecksum: SHA256: 807e1b35e526421a3842604bf876e6d24372735f8d6547ae90c809b73209b4d5
+FileChecksum: MD5: 43163e215cd5fa0c2cedf0ccca5aeb5e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/device_status.cpp
+SPDXID: SPDXRef-File147
+FileChecksum: SHA1: eaa827d492d80e981b0bb1f979f2a8624b66a77a
+FileChecksum: SHA256: 1fefe2531078f9216ca45e21c13f01a6a4e364ebb59c38eb75cfe30d5910953c
+FileChecksum: MD5: 3d78bda3a2801a38f6b72b929acc73a5
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/device_status.h
+SPDXID: SPDXRef-File148
+FileChecksum: SHA1: 1f14ae87b6ca92b954029cb371315ff7ad551618
+FileChecksum: SHA256: 2698e373e0983e9ff8e0453d4d7ff7f04fe383e04f83dc77c55f45fef3f3cdf0
+FileChecksum: MD5: 4a8ff92b0e6bbe38e3d803f923c72616
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/ext/CMakeLists.txt
+SPDXID: SPDXRef-File149
+FileChecksum: SHA1: 8cf3245177bb36a8957130441024769c8c8ddf09
+FileChecksum: SHA256: b624b959970697728e0e27f76b016eab6ace581ed823746980e94fda3bfbda44
+FileChecksum: MD5: 6957092d35457bc18b87ff72d41e09ea
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus_0_4_0.conf
+SPDXID: SPDXRef-File15
+FileChecksum: SHA1: 42be6bdc224d66386b73e5dda5b68b8e53b89771
+FileChecksum: SHA256: 5cb93ee061b21e666acfc23954c6f3ab42ab0c7cf40f8cc3aebfd83ada09ca66
+FileChecksum: MD5: 22f8224bf8892f5c2623b1a2077b7dcb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/ext/README.md
+SPDXID: SPDXRef-File150
+FileChecksum: SHA1: 4465885b448a73e3dd65f73451f0327e42805308
+FileChecksum: SHA256: 13ba440f6ed24ba600be30762913c30876c80f01cdd9c8ff4875860b5ea36fa9
+FileChecksum: MD5: 09c4ca37d49f38dd484edfa312104184
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /src/ext/can.cpp
+SPDXID: SPDXRef-File151
+FileChecksum: SHA1: 79d3298088ccd8fb83e9b62235141f7f10e2b968
+FileChecksum: SHA256: 0c508c8846df7e5fde07aad72108005cb79dd212c99f9e3c3532ba4e4db7608d
+FileChecksum: MD5: c737c435163cdae09198f5a7258ea4df
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/ext/oled.cpp
+SPDXID: SPDXRef-File152
+FileChecksum: SHA1: 72e1f151fa167b7ec8aa6e9c5c8f389a4e032e37
+FileChecksum: SHA256: 52ad90d0ae6d6c95714ea3543cf510071ab7c06675c3b8be18be4a4c61750cb8
+FileChecksum: MD5: 00d86596ea22ab280608817147a5029b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/ext/serial.cpp
+SPDXID: SPDXRef-File153
+FileChecksum: SHA1: 378570be694df71acb63f6ccc530e5ae8ed7f24c
+FileChecksum: SHA256: 0bff865841a61b3304cd9f4fa8151def89cd67e2e4260f6bc42fc14c629bc15a
+FileChecksum: MD5: b28f25c8ec639da8bb09dbf926dee5fd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/half_bridge.cpp
+SPDXID: SPDXRef-File154
+FileChecksum: SHA1: e56db56b92cbb54a815cdb1054e6f86e8e2014c6
+FileChecksum: SHA256: 05afbf8dada929fde6b1e4ec2a762c480d7d77dc93622109da803c09dd51772b
+FileChecksum: MD5: 42286894626831286f8d5e8b31887aec
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/half_bridge.h
+SPDXID: SPDXRef-File155
+FileChecksum: SHA1: 54d10706e291cccd156808f4ad347553ebd79c6f
+FileChecksum: SHA256: e486c0e27ba9ee789b3a7f0f0daaa138ff4d13062717e6e41c4a7f6ec6825085
+FileChecksum: MD5: 29814b522af216680b4453312e277755
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/hardware.cpp
+SPDXID: SPDXRef-File156
+FileChecksum: SHA1: 4befd03367dab705a4eaf5580d882a3c252a05eb
+FileChecksum: SHA256: cc22debac0b2453bbb1c4f028fe0aef11cd7c6c47772583465fc6345a207deb1
+FileChecksum: MD5: 46222c17ab264a3ebbecf8d830bf62a4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/hardware.h
+SPDXID: SPDXRef-File157
+FileChecksum: SHA1: 2be79cbf8c9e7fcae835bd3d3484e13ef67988ca
+FileChecksum: SHA256: 5c30a46885e8d5c66d88e8e14dbbc8c720a04fa08531826b8d5fc07d11cf4e2f
+FileChecksum: MD5: c3ccefbe7f8d66af07c01a87d6696138
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/helper.h
+SPDXID: SPDXRef-File158
+FileChecksum: SHA1: d1eca835c1877dd28702a578f4ee9c861f6f3c95
+FileChecksum: SHA256: ea7a9ff3548341e8d700f29c917325165aa02ccb5df681dae1f4bff557e74adf
+FileChecksum: MD5: b0aea4c6f3ed69e665d2876f5fcc6433
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/leds.cpp
+SPDXID: SPDXRef-File159
+FileChecksum: SHA1: c19633b7de57c711232f515621180cd341de0e72
+FileChecksum: SHA256: 4da19d43e2e7a43bc263bf4d7695f78af05366039c4d45e5df6c5f8e47d8e51e
+FileChecksum: MD5: beb62295ccced6174cea276358076fa0
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus_0_4_0.overlay
+SPDXID: SPDXRef-File16
+FileChecksum: SHA1: 9c897c20922a86806d800acd10388c8accac549b
+FileChecksum: SHA256: 48f70d7a0395fe18b4ddd626f4b25deb80bd5a5d07a718910026496d29a8b7d5
+FileChecksum: MD5: 05ca539ad4d6eeca79c64c6e6473f210
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/leds.h
+SPDXID: SPDXRef-File160
+FileChecksum: SHA1: 3836e3ab73a6c0cfb9d17c86c17807e5c696d7fb
+FileChecksum: SHA256: a20342b010e46c98f7c94ccb72bc2cab9cc12cebd3983e87468d771002b6c65e
+FileChecksum: MD5: 06d8c9dd268f943c239da593b78e2b7c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/load.cpp
+SPDXID: SPDXRef-File161
+FileChecksum: SHA1: 9fa1ba3449de0febb5d4926a0e01b9f502185bef
+FileChecksum: SHA256: 4be75d17e2a2e57ceb5c0b034320b55a3df200691a82d7e8669dbd4db000288a
+FileChecksum: MD5: ad271677c9912e62f6d4c48822bb723d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/load.h
+SPDXID: SPDXRef-File162
+FileChecksum: SHA1: 47448ed7137852f065a9158d955a706cdf28d940
+FileChecksum: SHA256: 9c08710604e5708f909250f2e5a367489c79717b2cccf50c2ea9d208651d776a
+FileChecksum: MD5: 43726cf04942abc2cd81057c68aacd1d
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/load_driver.c
+SPDXID: SPDXRef-File163
+FileChecksum: SHA1: 27845caef56da65156ba9e6e585fe53dcdeb37ce
+FileChecksum: SHA256: 2c56dbf12e26b1a7fe5b19665ffee67800fe0c7e9257bd9ded23029bb5942dde
+FileChecksum: MD5: 637cd3023f75597b7148f7092ba036cd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/main.cpp
+SPDXID: SPDXRef-File164
+FileChecksum: SHA1: b1242df9261e15c059d76b5acc6bc73594e250f9
+FileChecksum: SHA256: 3ba63b58a975a5928dea5c610fc33cc81883373e50d3556e3b99b1732c5bbf6e
+FileChecksum: MD5: 740d0a65e4dc5443387d87026b78e228
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/mcu.h
+SPDXID: SPDXRef-File165
+FileChecksum: SHA1: f38743828b8599b546ea75a608104308961cdaf0
+FileChecksum: SHA256: 95e377ea9fa0ec8222a4fc8f14657b4ea834102d66aa4cd5c674f95a75e1fc60
+FileChecksum: MD5: 2146a22cd5fae99927d83a1c78d58d80
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/power_port.cpp
+SPDXID: SPDXRef-File166
+FileChecksum: SHA1: 8c0774d09b5f65b4e3f4153068b7f4635c602dc0
+FileChecksum: SHA256: f698f8df6fb7261ea908fd4ee6fd2bb3367532e844fbbc8800844a148bb4537a
+FileChecksum: MD5: 837d09179aca5b3c36adb2fa36c4ba17
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/power_port.h
+SPDXID: SPDXRef-File167
+FileChecksum: SHA1: d3f8103fe507c5dbcb7c023179e5b1d7ca411af6
+FileChecksum: SHA256: 5221670588bfea428e386766aa239810d8c61540ab47e1b2910fdb1be7d82042
+FileChecksum: MD5: 285fe03ed2c7f5db6596aa5d048efb19
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/pwm_switch.cpp
+SPDXID: SPDXRef-File168
+FileChecksum: SHA1: 2fbf87cca6f29736d363b90411c6e2384c881567
+FileChecksum: SHA256: 756b428623a3c01b2fcd64aa35d9bcbc9e2469feb1c8c8ee370588ab6963929e
+FileChecksum: MD5: ef7622c6cecabb82de1a58ff48ebacb6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/pwm_switch.h
+SPDXID: SPDXRef-File169
+FileChecksum: SHA1: 554fbf8477f21b9dd7343d56bba7a1f26bc51ef9
+FileChecksum: SHA256: 9a70b9154217297300cc22beb69534a1a0ee7f87e14edc49dc5fb96b21807798
+FileChecksum: MD5: 2fab399e6381eb933d14289b2068ffee
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus_0_7_0.conf
+SPDXID: SPDXRef-File17
+FileChecksum: SHA1: 42be6bdc224d66386b73e5dda5b68b8e53b89771
+FileChecksum: SHA256: 5cb93ee061b21e666acfc23954c6f3ab42ab0c7cf40f8cc3aebfd83ada09ca66
+FileChecksum: MD5: 22f8224bf8892f5c2623b1a2077b7dcb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/pwm_switch_driver.c
+SPDXID: SPDXRef-File170
+FileChecksum: SHA1: 0a2e58b48c0dd948e8e0fefedd0b8dab9c7df4c3
+FileChecksum: SHA256: 07996e48eda0219aacd0d60be33e9dd5924bceebe3bd61492ca65b724994f752
+FileChecksum: MD5: 2ef314a096e40eabd27716cffd7c1dac
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/setup.cpp
+SPDXID: SPDXRef-File171
+FileChecksum: SHA1: 3d63919a9a091f3b613c8b94eb2b3e59aaf105e1
+FileChecksum: SHA256: 9879f7340572d05d0303b4bb360a6fa8b66e7ba6fb803d692b29b1711dba7aef
+FileChecksum: MD5: dd31aaa8bf9ca3a50d0f187936df5153
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /src/setup.h
+SPDXID: SPDXRef-File172
+FileChecksum: SHA1: 5838d42de5d7d42e8ffd7e8784c3c4ef2b2a17ed
+FileChecksum: SHA256: 687816ba5f640b8b67978ad51656d9ea7a55ac0014f34f795cc298ae72f810ec
+FileChecksum: MD5: 33c8dac20a1f32447686a9e5d8693c42
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/autoconf.h
+SPDXID: SPDXRef-File173
+FileChecksum: SHA1: b28cf29d758b36f77be26a3a61b4b71137e84075
+FileChecksum: SHA256: ec4107ea62f4c3f9ef4e4996f895644c3791b4b8c9a1e648069c83d6af315544
+FileChecksum: MD5: 87b9da3754c87d4e282e3c9ad0793ff8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/daq_stub.h
+SPDXID: SPDXRef-File174
+FileChecksum: SHA1: 97d83369f8f4217017541d05a6458ecb4c819817
+FileChecksum: SHA256: bf42991a1d1d193ffb803bc6ef9c8c73b4d7ca8c8ebaeb120e1e4d291504543c
+FileChecksum: MD5: 4e483594581c1e6111202fb2a474d75f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/devicetree.h
+SPDXID: SPDXRef-File175
+FileChecksum: SHA1: 0ce35e10422fed76377227098bef8add43f609ef
+FileChecksum: SHA256: be67b4d59bfb661ea6cdc0ea6ea6f6e889727e17abc770d1d71681ac16da6a98
+FileChecksum: MD5: 79b6b61392df5a2e1bf6f950dc2fc731
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/devicetree_unfixed.h
+SPDXID: SPDXRef-File176
+FileChecksum: SHA1: aa0a6448d24ce90faca32c69b6658e25f51190ee
+FileChecksum: SHA256: 594d794d31a5882f564654d9b0996b00717980493bf0e8ca98ad063b9e7dbf61
+FileChecksum: MD5: 15efb2b414a80d47e286b2fa19e9f9e3
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/main.cpp
+SPDXID: SPDXRef-File177
+FileChecksum: SHA1: 8be4d0ec05971402f0c2d661655b8ae22fdcf5a8
+FileChecksum: SHA256: 13469a6045fa9249ebf15a503cdaa8ec1db169c35277894043bb6bc078f27331
+FileChecksum: MD5: c4175299ba6b2bde91491cc5f25167ac
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests.h
+SPDXID: SPDXRef-File178
+FileChecksum: SHA1: c94c56fd5608226b88ecdf54a3c1dbfe3887b067
+FileChecksum: SHA256: ef6dc075bf45206b92ee4865089b07d7f3020ba594642a050020fc56b4422c93
+FileChecksum: MD5: 535687efd7d1645ba1f50dcda8202fee
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_bat_charger.cpp
+SPDXID: SPDXRef-File179
+FileChecksum: SHA1: 501420bc36101be1143cecaca3105113b994ef23
+FileChecksum: SHA256: 256078111cda9695a16f847545a7f22a884338f8330dab4074d0ea874030f199
+FileChecksum: MD5: bbead317783067e1ba2283c84b8de45f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus_0_7_0.overlay
+SPDXID: SPDXRef-File18
+FileChecksum: SHA1: 7bb022bcad3a05557e9b1eaaee0b7d3bf8ce2d99
+FileChecksum: SHA256: 6413336fc612d4120bb66f4b6c53bae12294d0fcc2ca9a97c85952f20364ace2
+FileChecksum: MD5: 935dbf2131ceadacdae884698fbcba73
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_daq.cpp
+SPDXID: SPDXRef-File180
+FileChecksum: SHA1: 76e4478a5d7d572bb60aad4ca0b64d49fd36f12e
+FileChecksum: SHA256: 096b8475e4997453bc32038a93ea914cf24af553f3dc9a019a34d5bbe25a6f34
+FileChecksum: MD5: 2e2fef2f83ca5c491b0004fd73584350
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_dcdc.cpp
+SPDXID: SPDXRef-File181
+FileChecksum: SHA1: 860c2f64c1efb8ddd00d583d2722d52da908e3f5
+FileChecksum: SHA256: a7dfb0d81b8309cdaa022d31153c7f44bfd9d9b3c0a8ebf79d106eba4464bb6e
+FileChecksum: MD5: d423cc2337076d56568aadc9a95eb933
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_device_status.cpp
+SPDXID: SPDXRef-File182
+FileChecksum: SHA1: 276d14236d4826fc4c82a41dcd358c518829f824
+FileChecksum: SHA256: 1b009090653ede4ae6e1ed38869a16142795659f811d53fd27f90226cc9f741a
+FileChecksum: MD5: eb391b5341974363ebc9c06cdc4ee83f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_half_bridge.cpp
+SPDXID: SPDXRef-File183
+FileChecksum: SHA1: f707c60a37a3dc48df30dab6a7047c90369d7b86
+FileChecksum: SHA256: 0293a134eeb231d44e14501e7befd1e602d3883a7a1bc60106979bb88ddf0e89
+FileChecksum: MD5: 5492f4b0afdd8280943fbe770c42614a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_load.cpp
+SPDXID: SPDXRef-File184
+FileChecksum: SHA1: 60352d531873690b08a3c2fb9eab533b1c8d86d7
+FileChecksum: SHA256: 8f336eb1dea076bbeb9ed1ce8a46325e4e1047766790a8758ce332b0458d8920
+FileChecksum: MD5: f0c5c354bb4e53d55d0c88543176bc31
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/tests_power_port.cpp
+SPDXID: SPDXRef-File185
+FileChecksum: SHA1: d9d5a1fc2a00c9264d39dd30f4daf32cc15095d2
+FileChecksum: SHA256: a2381735818cff5e4b3c666bee29fd031d597a26801e5e6fe1989887bed297eb
+FileChecksum: MD5: ef04d7da1f74ddb17f4b2cb01c3b8a0c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /test/zephyr.h
+SPDXID: SPDXRef-File186
+FileChecksum: SHA1: ab37b05d7ec2fb33d5bde38b585e2a143619aa7a
+FileChecksum: SHA256: daf108c897c89e2093107daac2458565d9c276c0ae412403d6f9e02d1147a3b7
+FileChecksum: MD5: ad8b8d6c558f1cda5c82a9ddb6043cbd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/.gitignore
+SPDXID: SPDXRef-File187
+FileChecksum: SHA1: 086297b4a43c7d115c155b4ff015d179dad994f5
+FileChecksum: SHA256: bee84b7eeefc7255bbd92631167043087ce2a1088c82f386df9751dff77983cd
+FileChecksum: MD5: 771f9f9f09cace2a00f6ca9fa4434ad6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/CMakeLists.txt
+SPDXID: SPDXRef-File188
+FileChecksum: SHA1: c83d3d9873948a471f2f69e12f1f0e40866684ba
+FileChecksum: SHA256: aea9967f7e97b0f350c4787b64f9cf340585915995f31c93b08f8de1cf118a9c
+FileChecksum: MD5: 9faf93935ca226b30041cd2b0e4c193e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/Kconfig
+SPDXID: SPDXRef-File189
+FileChecksum: SHA1: 118cdd47f907ff126102b949f6c196f47256af13
+FileChecksum: SHA256: c13d1d1b1b451168ad778a1b76c168a04ef332596666b501bb4e1424116a5b30
+FileChecksum: MD5: 2335bd578f784e2d3e27252d80641bc4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/mppt_1210_hus_defconfig
+SPDXID: SPDXRef-File19
+FileChecksum: SHA1: 7b36fddd9b038ccfed193c27938e941beffb730b
+FileChecksum: SHA256: b9158894dbbd2d0d87212f56fc93cd8af450d57d9b93f94878debf4c5aadfbbf
+FileChecksum: MD5: 76dba6dc3ed2c8438b1ced8e539eeee3
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/dts/bindings/adc-inputs.yaml
+SPDXID: SPDXRef-File190
+FileChecksum: SHA1: 4c0702f67b4add5e8b5a6d4ed17a9ce7f353b10d
+FileChecksum: SHA256: fd78235d37bcc548d7fe036b2b28460e4da4c75d5a2c20dd4149a83e4235e2b5
+FileChecksum: MD5: 16f777baea6dd355e72c78a7ecd9cb63
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/dts/bindings/charge-controller.yaml
+SPDXID: SPDXRef-File191
+FileChecksum: SHA1: 6d4442e6fc46ec46c7e8a50e3b363502742621d3
+FileChecksum: SHA256: ae0ab104bb187b1d392afc530ee49e6ad87b10aaf5803ce68a5344dbac19f81e
+FileChecksum: MD5: 0ec400582fdcdaa20b678256ba19e79a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/dts/bindings/charlieplexing-leds.yaml
+SPDXID: SPDXRef-File192
+FileChecksum: SHA1: 0327d4babeda553c47c394bfd8f9f43defd12e96
+FileChecksum: SHA256: eca49380c0506d24a7956b0b31cfe8521c985a40aefd9bd6518c0ae470aed058
+FileChecksum: MD5: 29c582d267889eb7d699e665a750231e
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/dts/bindings/half-bridge.yaml
+SPDXID: SPDXRef-File193
+FileChecksum: SHA1: 1732eafb03e8aef85d3bad931e0d476c0f82e827
+FileChecksum: SHA256: 542cfcb05ff84afc82a50b73dbaa265d32a911b12f9748198d6543ec1f110b09
+FileChecksum: MD5: 330b71b1093162f32ba721bc526489a9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/dts/bindings/outputs.yaml
+SPDXID: SPDXRef-File194
+FileChecksum: SHA1: b702f75dd4016eb51ff7d9a0fb01094c6b94e75a
+FileChecksum: SHA256: 433f8b1ecef2ce698d3ff6c0b0210086694c709ab8d0692d421012ed5946a952
+FileChecksum: MD5: 856c786ec8657490e7e0c24b8d24c320
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/prj.conf
+SPDXID: SPDXRef-File195
+FileChecksum: SHA1: 67cbce8135c406f47dbd22b430b6f521a96aee25
+FileChecksum: SHA256: 8c2faa0a5af506d8848ca00850b2d82da6a042c8a4d90fbe57ed8af51223084b
+FileChecksum: MD5: 794d09d06c9d7b451deb4ffd59b58869
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr/west.yml
+SPDXID: SPDXRef-File196
+FileChecksum: SHA1: 67f2dddf8c517a8444ecb3cb6abdfce3a1959707
+FileChecksum: SHA256: 767337b8200ff33e159525171b56aaef04f6ead8d701cdff1aabafb9d9f736f6
+FileChecksum: MD5: f1876f5a0de8a88035c42f7c76d9eee7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /.gitmodules
+SPDXID: SPDXRef-File2
+FileChecksum: SHA1: a166ca300b647ff6a0f22e1daa9d3d2be7cf7362
+FileChecksum: SHA256: 2ee4598f5c901a8bcf48670b96d383cd1b2a2b398349a289055c5ec2f4f0c3c8
+FileChecksum: MD5: c81a4234d280073c1985ab2ca27db307
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/revision.cmake
+SPDXID: SPDXRef-File20
+FileChecksum: SHA1: d4ad514ce8aa8d310a526c254442540191d26150
+FileChecksum: SHA256: 824e6682bdb0a88e6609fcb5536b0944cbf3a8cd02f2c4d15ff3f6189dd86f86
+FileChecksum: MD5: fe5fe66f38f780192b854a4c8789c942
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_1210_hus/support/openocd.cfg
+SPDXID: SPDXRef-File21
+FileChecksum: SHA1: fa97cac5771e5d2a9d77456d30d5bb7165490fcb
+FileChecksum: SHA256: 47c2c499acda3e53e66ae77ae886f47b8b99adb947cff5d7edb1eac4ef35d834
+FileChecksum: MD5: e2cc50b34eb212e68d02535f5b57c7d8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/Kconfig.board
+SPDXID: SPDXRef-File22
+FileChecksum: SHA1: 11c0f212fd91b8a9b46a51d42752f9cec49dc8e4
+FileChecksum: SHA256: d6f292d129371410279a33713644eca39d52df48ce5837ce6bb37d99d9403f2b
+FileChecksum: MD5: 7244e58a51b4dbdc13708303ee9e23fe
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/Kconfig.defconfig
+SPDXID: SPDXRef-File23
+FileChecksum: SHA1: d2ac8bf460aa3ae6983d1a10a9dc2b394bbc5ba0
+FileChecksum: SHA256: c6635bf2544b785ea6c643f0085b27b0926cc0f301c50d5733c88c1aec3717f0
+FileChecksum: MD5: 16e9bb24f7b66a27fe3531a63545b235
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/board.cmake
+SPDXID: SPDXRef-File24
+FileChecksum: SHA1: aaa9d1e540b1082e8f174cf7c08fef09c1383342
+FileChecksum: SHA256: 872b8ea1a81d0864f58e74f7dfe3b04e84b6af8ab296fe2c03d320b4644a5247
+FileChecksum: MD5: 65f0153528a1641f69e691b5a90fa541
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc.dts
+SPDXID: SPDXRef-File25
+FileChecksum: SHA1: 71f4ef72a5e2d2abbcbcfd73c4dbc1d788df9704
+FileChecksum: SHA256: 89f60af553f3b0ca7095bcdd91eb23a9fae496657393548d3f0a056039c82053
+FileChecksum: MD5: 935ecef32c42283babec22cc45fedbf1
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc.yaml
+SPDXID: SPDXRef-File26
+FileChecksum: SHA1: c295fafe403d0c95eef87c51fae7bc4965385b71
+FileChecksum: SHA256: bb098018fdb4b470fe588e39880cf2f8c18eb297e07ee65afc49008af307f216
+FileChecksum: MD5: 649639923bae0e2c6d7aa8108efbaafb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc_0_1_0.conf
+SPDXID: SPDXRef-File27
+FileChecksum: SHA1: 713b6353a3b2942223e04ff4ba0834831b502737
+FileChecksum: SHA256: de865a89532e46cd7ba8b3af6542aa542c46af6fde5ba83428b9708651bae57f
+FileChecksum: MD5: d16e2efa13cec9a8548bd179316a5454
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc_0_1_0.overlay
+SPDXID: SPDXRef-File28
+FileChecksum: SHA1: 38db298b5bd825b9b15e82af9ab7477d5ee908e9
+FileChecksum: SHA256: ea20a2189c566661792a876658e62f6a8eb0c6c03d718b2a2c7df6e1170b0501
+FileChecksum: MD5: 51e55315b48d9f082e7a21e4dd14d1c8
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc_0_2_0.conf
+SPDXID: SPDXRef-File29
+FileChecksum: SHA1: 9ef09009145444e88836796bd2d4c2ff4a4ccb41
+FileChecksum: SHA256: ab3f7de35aea58ae7e322f8a12d9271675e3231f7020d7b8fe2657c8d13ead87
+FileChecksum: MD5: d2806a49e04c39976219acd66d6731dd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /.travis.yml
+SPDXID: SPDXRef-File3
+FileChecksum: SHA1: 10cdc1f164eef98adf0a6552f8d6d7a4bfe60ebe
+FileChecksum: SHA256: 85a53459a5d9a943b3099cdb6a91e8a810a79f6335d77ac562fb7e5333b12cf6
+FileChecksum: MD5: 84e2876ad38c8d2765e28186b8cbb322
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc_0_2_0.overlay
+SPDXID: SPDXRef-File30
+FileChecksum: SHA1: 69e9f28efc562a1c4801073251a9cf03da732d8d
+FileChecksum: SHA256: 02878fe0053677d271a1c041ff2f72bb3c965933c17df8cbd2ee853e45655319
+FileChecksum: MD5: d6744494e8917247e16148284b77f49a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/mppt_2420_hc_defconfig
+SPDXID: SPDXRef-File31
+FileChecksum: SHA1: cf4a5786c322d3bc412c5348ad3092efa5e6c608
+FileChecksum: SHA256: 25f045b0351c375c8d25d3a6c6f03a8cf868326b3ab4559935c61f62672650e7
+FileChecksum: MD5: c772c4e6e2d46f7f68e9b50256671c2c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hc/revision.cmake
+SPDXID: SPDXRef-File32
+FileChecksum: SHA1: cce3f8edc2b5f284d988bd7f38ada804f17e8820
+FileChecksum: SHA256: f2ecdc6d57b25e201c497dcedd9c32591bc42c23a3b0d6a8e547e1509731d1dc
+FileChecksum: MD5: ca6594b15dbc514d9f3915f55f8842bc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hpx/Kconfig.board
+SPDXID: SPDXRef-File33
+FileChecksum: SHA1: 83cac101ff29a9b4a56c324b27326761423a7be2
+FileChecksum: SHA256: 4b67d015202f94994a650eee8b3025889fc42911d424cc0099bb26a659f0c187
+FileChecksum: MD5: aff72e6c28e1183ecde478203a712c5f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hpx/Kconfig.defconfig
+SPDXID: SPDXRef-File34
+FileChecksum: SHA1: 8331160f45d7a9ffc8dd21f5139a1f7172e6879c
+FileChecksum: SHA256: 2708d2d7aa2d7bdef5580c3f284ccd9841ead29b007d68d283844a4dab6b0733
+FileChecksum: MD5: 230e0b88bd7378d9282e85f365bbba44
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hpx/board.cmake
+SPDXID: SPDXRef-File35
+FileChecksum: SHA1: c8bc5747502e96e52308d1e0fcc25bea46c3778e
+FileChecksum: SHA256: 1c054d96da4738390c79134e5f4edc7a97a1d3a2f7269f95c9e411f5d7d8dd7b
+FileChecksum: MD5: d6847d510fc878d86744a5646b9282d9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hpx/mppt_2420_hpx.dts
+SPDXID: SPDXRef-File36
+FileChecksum: SHA1: b72df39d58a7709287fd84baab8898551286799d
+FileChecksum: SHA256: 6a084280157c2361aded4ed9233e106fb7a23b9518b652e705b827a113a1fcba
+FileChecksum: MD5: 0da8079a42500973108aa9034cd80cdd
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hpx/mppt_2420_hpx.yaml
+SPDXID: SPDXRef-File37
+FileChecksum: SHA1: 16cfff2595c7b03b6d15f4319ac76fadbce86311
+FileChecksum: SHA256: 2f804c083ebdc806d05cba1e7b839b4fc183adf2a6d1ef3df7f92209cbaf3cbd
+FileChecksum: MD5: 8d6c5261e7f29774b87c0a1377878a90
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_hpx/mppt_2420_hpx_defconfig
+SPDXID: SPDXRef-File38
+FileChecksum: SHA1: 950cb593d8c801d47cd8206b46019efb7dbf2a35
+FileChecksum: SHA256: 92b680435ff589dcda40245770f1e198b2fd2aedca1daf646cbd2381e43fc9a9
+FileChecksum: MD5: f587763f0d9ebecf34ba92c571dc4cd7
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/Kconfig.board
+SPDXID: SPDXRef-File39
+FileChecksum: SHA1: 6ede28fd966b3b1dc58b72d66a3da6ae3f18b9bc
+FileChecksum: SHA256: ab5390b58a120a9053d625dfd7abdc675f76a806a44e6c44579a571355e05603
+FileChecksum: MD5: eb5ad914c2b8ffd5e5845452c955aee7
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /CODE_OF_CONDUCT.md
+SPDXID: SPDXRef-File4
+FileChecksum: SHA1: 695e07574bd8d052d43c0a85bb232bce7eb9832e
+FileChecksum: SHA256: 47998342c7d85f3f9d0c235ab9eb95a9d5f5899fc8424aaafc0072a90d8bd70d
+FileChecksum: MD5: cfc70d4765916b6b7a481a93605ce611
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/Kconfig.defconfig
+SPDXID: SPDXRef-File40
+FileChecksum: SHA1: 853823e10dbf3b74e99083a9473635cd44e5f20a
+FileChecksum: SHA256: 1aea00ba8afe0551ccb29f216889350ebf9964543155650ea47a68288e21e24e
+FileChecksum: MD5: 0af725c2a5978a33afa22d1364db5e6b
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/board.cmake
+SPDXID: SPDXRef-File41
+FileChecksum: SHA1: 100eefbf82f1aa24a10c54b2958882c58ff3c0b1
+FileChecksum: SHA256: 96d22e6dce3974695ea0dc7103e2bc67b928bccd5bfbd5af0e284071b0834611
+FileChecksum: MD5: 96b4f83dc056530fee2b6b74920b360c
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/mppt_2420_lc.dts
+SPDXID: SPDXRef-File42
+FileChecksum: SHA1: 056cbbd54e95a0fe7817907ff43614a941ca7f34
+FileChecksum: SHA256: 65c43c54543f2dc9b1057756a122d2c7302d50dbda507b5f4ce9aabac26a4836
+FileChecksum: MD5: 12c797b628474a589f100cd02862eebc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/mppt_2420_lc.yaml
+SPDXID: SPDXRef-File43
+FileChecksum: SHA1: 978aa2c6ec3450c0c752ab7cf73ddee24cc61252
+FileChecksum: SHA256: 3c3d557698f0572f43e1ddc15caa4d9423e1b6b029a90e6d198a86e5303572ac
+FileChecksum: MD5: 8edf18855f84ff5207233be837512f2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/mppt_2420_lc_defconfig
+SPDXID: SPDXRef-File44
+FileChecksum: SHA1: a60d1526234119667ddf67f32fb4e42ffd52b5cf
+FileChecksum: SHA256: a33d5c7fb826682f8704fa436b17483212795d3efcf003bc331d6c3eebb040b5
+FileChecksum: MD5: 3ecc2a6f2e8fb2b068b9ca9c4091eecf
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_lc/support/openocd.cfg
+SPDXID: SPDXRef-File45
+FileChecksum: SHA1: e414a862f22b1a1b4dce22c2c62e017542036f6d
+FileChecksum: SHA256: 70386a9532d5194c2cc77288dc7fd3b346a45a22d1c43d2abe9dfea471211ac4
+FileChecksum: MD5: c680cc57b21e6c2df0f1c96017f778ca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_rc/Kconfig.board
+SPDXID: SPDXRef-File46
+FileChecksum: SHA1: 952b4b192f72b626feabd9ffc94babcc306eae1a
+FileChecksum: SHA256: 2b57ede148771cca96b809869aa977500fc204030233224b5d556f059151adcc
+FileChecksum: MD5: 223df7a223b6f3ea32d059e4e6676f4a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_rc/Kconfig.defconfig
+SPDXID: SPDXRef-File47
+FileChecksum: SHA1: be30b4065edfac1ebac196f0286365651c76f127
+FileChecksum: SHA256: 438b6e1b1bf6e61c74feb4d55e76f5972bf8fa6b5eb7a877a0f747af1b69880c
+FileChecksum: MD5: f2a1061c9f7f4e688326a7bf03cb507a
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_rc/board.cmake
+SPDXID: SPDXRef-File48
+FileChecksum: SHA1: c8bc5747502e96e52308d1e0fcc25bea46c3778e
+FileChecksum: SHA256: 1c054d96da4738390c79134e5f4edc7a97a1d3a2f7269f95c9e411f5d7d8dd7b
+FileChecksum: MD5: d6847d510fc878d86744a5646b9282d9
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_rc/mppt_2420_rc.dts
+SPDXID: SPDXRef-File49
+FileChecksum: SHA1: e458499e7bc818511b19d1cd9dea4cccd7185b14
+FileChecksum: SHA256: 24f92e75147e63eb8f5298e0c981faefadf372d389cf05d4ed81f5ea7efdab2c
+FileChecksum: MD5: 50c72b805ae8726c95fa905fbd8c039f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /CONTRIBUTING.md
+SPDXID: SPDXRef-File5
+FileChecksum: SHA1: 02e08bcaa88c08afb46806531bee23dbbde23582
+FileChecksum: SHA256: 55c36028cf6b51626786899cae2dd7e457b82440e6081ac690c5ad48445d3ce8
+FileChecksum: MD5: 8e56bc1ba1079ab237734c4c266d3aa6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_rc/mppt_2420_rc.yaml
+SPDXID: SPDXRef-File50
+FileChecksum: SHA1: 49bb94670456e6d169b0671fad96c6d8e92b4f13
+FileChecksum: SHA256: 49fc4a43aa0d44ee780176a388a905a2aa2081a4a1f29917b7fca39c0b622eab
+FileChecksum: MD5: 5a6726321eee968971c2cbd9f1e65818
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/mppt_2420_rc/mppt_2420_rc_defconfig
+SPDXID: SPDXRef-File51
+FileChecksum: SHA1: 605de91ad2387c89e23e45ce3fa1b196cbbbf655
+FileChecksum: SHA256: 09f2f7118e1cb026a2dbfe28bbbf5247cdd1c65088fdf84588c1058699125fec
+FileChecksum: MD5: 6633a6b906d902900c8db6bef5ed4523
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/Kconfig.board
+SPDXID: SPDXRef-File52
+FileChecksum: SHA1: eed1813851c7e85f8496452694ec77b6e7f3e350
+FileChecksum: SHA256: ee3ee980d89b1deb6d4910c3dfe8c58dbcb402156fa9afdeefa2c02fad19b77f
+FileChecksum: MD5: 0ec48c1e9a96da9ad61fdd1ed3054552
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/Kconfig.defconfig
+SPDXID: SPDXRef-File53
+FileChecksum: SHA1: 6f990fc29608becb96f157e365b809686b7fe2b9
+FileChecksum: SHA256: 63f06c0242fc950900cfc1510f2e288f12e499a5dff815073f88dea2935a3743
+FileChecksum: MD5: 4152f41f90ee1f77e07654ff979e437f
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/board.cmake
+SPDXID: SPDXRef-File54
+FileChecksum: SHA1: 0286c4b1cc42dda2edbe903b96409ea5c1cde9d2
+FileChecksum: SHA256: 052465fdf61e2c0bd26097c853d0d9f105681cef09f5fa9507631b9baf48e91d
+FileChecksum: MD5: 4be2a70f42589c759c0ca43e453869ad
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/nucleo_g474re.dts
+SPDXID: SPDXRef-File55
+FileChecksum: SHA1: b9c389b7a6a8ad2e4c75d0cbe45a14a39728045a
+FileChecksum: SHA256: b838b502e4abc226255f694b0b1e2712cae4cac4a3fb0b46175ac121be684755
+FileChecksum: MD5: 211c269c0cae37b0db0f2f8bd9b0d3c4
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/nucleo_g474re.yaml
+SPDXID: SPDXRef-File56
+FileChecksum: SHA1: 7073e7a047685e7e67ab0cd27d432533cc835692
+FileChecksum: SHA256: 318a199f1484c1acb17194e6d215c128a640629943595cb50eb13f850ae1344f
+FileChecksum: MD5: 76703bf3fb4d0ce06d96f0ce14a40fcb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/nucleo_g474re_defconfig
+SPDXID: SPDXRef-File57
+FileChecksum: SHA1: a6eff85f75825219b5399d9aff96e33baf6e6180
+FileChecksum: SHA256: 6bb795e10f35dedc04d567a4c3f86b803708e823f23e380c0f4d3825c6170bba
+FileChecksum: MD5: 7859f5f3d64478918bd727c9f1dc0b13
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/nucleo_g474re/support/openocd.cfg
+SPDXID: SPDXRef-File58
+FileChecksum: SHA1: ea09919531df32db64a8033a92d2b0606bbf940f
+FileChecksum: SHA256: 760e501c4d6a02a7f2466246362a9db5ff5c4819754bb7ac959ade7e3f5644c6
+FileChecksum: MD5: ad8f27c8bec0a79def060cab3f75e226
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/Kconfig.board
+SPDXID: SPDXRef-File59
+FileChecksum: SHA1: 5d9bf1a3c9e88e6a8a2de6c67e1f4cebc34f04e4
+FileChecksum: SHA256: 6228266f464e9ad965febc860c64784e14e9d4daebfb8dc4aa5271946edacb5d
+FileChecksum: MD5: 208ca33756c42e012031ac633a6dc360
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /Doxyfile
+SPDXID: SPDXRef-File6
+FileChecksum: SHA1: f354846631c2329dbe78547da320a98b1df18840
+FileChecksum: SHA256: 7f14e9ba2f0c2a85cd54ecafb50e088607013bc7e18b3f72fd9900b63b994520
+FileChecksum: MD5: 4fb348d8990a9cc44f9605ef76304beb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/Kconfig.defconfig
+SPDXID: SPDXRef-File60
+FileChecksum: SHA1: d178c683d1302a654316e24a636a8d94d4782319
+FileChecksum: SHA256: 5fbac991585b70f07ad6a53af94139e6b07ae50660bcbffc6f38e65b78329a6c
+FileChecksum: MD5: 32c95ae1ae95568d896d17c0877706cc
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/board.cmake
+SPDXID: SPDXRef-File61
+FileChecksum: SHA1: 58c3d3929ab85f3a24fbedb947f280ebf662f02a
+FileChecksum: SHA256: 966a8ca92d22c13d797461934379673fcca6286df8b49cb2a80cdfacc7decf42
+FileChecksum: MD5: 669ddab160c6b6beaf20f1f5f2e1e472
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus.dts
+SPDXID: SPDXRef-File62
+FileChecksum: SHA1: 05c7c25377882258b1a11be847ccff73f6943814
+FileChecksum: SHA256: 9b31477431a11222a1dc60e7e7471185496939753ef882df7b87171ff27e0662
+FileChecksum: MD5: 1e05448b9df8b266ede7b70f2185c221
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus.yaml
+SPDXID: SPDXRef-File63
+FileChecksum: SHA1: c2424f45a3cb67eb2a7064b75fbfd9c071854ff7
+FileChecksum: SHA256: e4d16f3546b07f03da0084e39720fcae4f596ee61abef5dd93fc2264c2d36d18
+FileChecksum: MD5: 576dec389301a250b2714faa00ca3fc2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus_0_2_0.conf
+SPDXID: SPDXRef-File64
+FileChecksum: SHA1: 42be6bdc224d66386b73e5dda5b68b8e53b89771
+FileChecksum: SHA256: 5cb93ee061b21e666acfc23954c6f3ab42ab0c7cf40f8cc3aebfd83ada09ca66
+FileChecksum: MD5: 22f8224bf8892f5c2623b1a2077b7dcb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus_0_2_0.overlay
+SPDXID: SPDXRef-File65
+FileChecksum: SHA1: 904b99aed3c4ccc7939f2a13e1c3dde9a6c1e1f2
+FileChecksum: SHA256: a3b8fb7a042bda78f1e4b6414ae7f997b63d28a75b78e9979619fc6856890f8e
+FileChecksum: MD5: e474e2c1e19382fffeccb3f1f6f58470
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus_0_3_0.conf
+SPDXID: SPDXRef-File66
+FileChecksum: SHA1: 42be6bdc224d66386b73e5dda5b68b8e53b89771
+FileChecksum: SHA256: 5cb93ee061b21e666acfc23954c6f3ab42ab0c7cf40f8cc3aebfd83ada09ca66
+FileChecksum: MD5: 22f8224bf8892f5c2623b1a2077b7dcb
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus_0_3_0.overlay
+SPDXID: SPDXRef-File67
+FileChecksum: SHA1: 250669994e5f6505c6518dc1bfe9f32b3adfd196
+FileChecksum: SHA256: 1d6565d217a64be5b0a5c202abad8c56d137f3c716cd079b5a6f54b6ac1ca721
+FileChecksum: MD5: dc3d1ed5f6e9ec4fa2cb0e0a5c36eb72
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/pwm_2420_lus_defconfig
+SPDXID: SPDXRef-File68
+FileChecksum: SHA1: 7b36fddd9b038ccfed193c27938e941beffb730b
+FileChecksum: SHA256: b9158894dbbd2d0d87212f56fc93cd8af450d57d9b93f94878debf4c5aadfbbf
+FileChecksum: MD5: 76dba6dc3ed2c8438b1ced8e539eeee3
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/revision.cmake
+SPDXID: SPDXRef-File69
+FileChecksum: SHA1: af4f74684b25702409a44f5d173c771b113bbc8f
+FileChecksum: SHA256: 05f837034118bf8b73b4db0728a6ad74f83fd555e96709711bbd02b928ebfd91
+FileChecksum: MD5: 4fba5620fcdf2e9088b560d05ecdf611
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /LICENSE
+SPDXID: SPDXRef-File7
+FileChecksum: SHA1: a6a5418b4d67d9f3a33cbf184b25ac7f9fa87d33
+FileChecksum: SHA256: a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9
+FileChecksum: MD5: e23fadd6ceef8c618fc1c65191d846fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/arm/pwm_2420_lus/support/openocd.cfg
+SPDXID: SPDXRef-File70
+FileChecksum: SHA1: b6d16327871bc3f7fe2c0ac80184a55837e35ffc
+FileChecksum: SHA256: 572671e3c139e356a2b8c43dc36ab0ef75bd9043d84fcb887c34bfc339c8fc49
+FileChecksum: MD5: 2ce79f4fb59348dcc90430dbd27bf058
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/mppt_1210_hus@0.7.json
+SPDXID: SPDXRef-File71
+FileChecksum: SHA1: f4973f8b2004285668ab8a5830301f455d76f036
+FileChecksum: SHA256: 325609675c2df3edd8d53d8db1aecebd665c3386a733e3e4c98cf3abd652c726
+FileChecksum: MD5: 5952c63ddcfce5d00236f6c9576a80c5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/mppt_2420_hc@0.2.json
+SPDXID: SPDXRef-File72
+FileChecksum: SHA1: 7256b6477ec9b8bff480da51a812e7ce09724a62
+FileChecksum: SHA256: 88d01480ab7ae2766616ce7531c9ec9aa98282a8b2f5d43e27c2fc78e047fe7a
+FileChecksum: MD5: e2257dd8daf0c61732b07a38a47acd4a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/mppt_2420_hpx.json
+SPDXID: SPDXRef-File73
+FileChecksum: SHA1: 44037cd84dc449d2b4157764d289e86a8a337ed4
+FileChecksum: SHA256: 5f3c1ba337b1b5a126aad7bb7f33ef62d8330a2186c42edcf290095b9d8e2c6c
+FileChecksum: MD5: 35f8609d5ceca63603607613a769961e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/mppt_2420_lc.json
+SPDXID: SPDXRef-File74
+FileChecksum: SHA1: 832b10aa9d4edd8268be69e8f9fd32034eca982c
+FileChecksum: SHA256: 426f428e43e8d0935c9b03ff53f6b813815e93676eaa210637f8fbbc32b99a18
+FileChecksum: MD5: ba98ad5b11ef55fc401e842cb9488917
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/mppt_2420_rc.json
+SPDXID: SPDXRef-File75
+FileChecksum: SHA1: 1a61fc937388e17c414b9a42bb6bc3a18f38d294
+FileChecksum: SHA256: 881f704e283564663070df1ac4c9209e69e14c01e1bac21bea11139b6d1c99bd
+FileChecksum: MD5: 1a2e5f385cd553a9a1a45d11c1e30a91
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/nucleo_g474re.json
+SPDXID: SPDXRef-File76
+FileChecksum: SHA1: bc710ce837c3dd8d378611da72414026f8d5a23d
+FileChecksum: SHA256: 97f946536cfd8f853fd08c56dfd1bcf67d4c9db636e223ebe97b4b3b90e8be30
+FileChecksum: MD5: 76d7b607101983e121a96649c860c4ea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/pwm_2420_lus@0.3.json
+SPDXID: SPDXRef-File77
+FileChecksum: SHA1: 59b0606acdbf0666262a63094f0a47ca55dece25
+FileChecksum: SHA256: 976af9d1be18f0b60f73e1d198eb8446116a3e6425baa4006c4504230b0f9f06
+FileChecksum: MD5: 54215f48805756466fca72dfd6191003
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /check.bat
+SPDXID: SPDXRef-File78
+FileChecksum: SHA1: 4e9469ce859117911113131608c83288f2a881dd
+FileChecksum: SHA256: 46909434761174bb50f5f6d0b5ac844c524cd99546d92b9faa146b1f7a8d9c3f
+FileChecksum: MD5: 40a31dffe552d8d69e96228f3141d190
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /check.sh
+SPDXID: SPDXRef-File79
+FileChecksum: SHA1: 4550b1c1a6e5445bd0783c201b6fe7b7b8760367
+FileChecksum: SHA256: fe4093f2215178f292baa904358411e9c57853746743e6af344a9736f9b91ce5
+FileChecksum: MD5: 24134c9a21b88259ac3eb3ae6b493d94
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /README.md
+SPDXID: SPDXRef-File8
+FileChecksum: SHA1: c3a46569b1748a18de307771b167a692666320b2
+FileChecksum: SHA256: cf78213628035af45b7062e9081f81bcc3a13a1b91fc28e416d7caf7414f1ca2
+FileChecksum: MD5: 3eda66af5a9a27d723cc03db8e685ebe
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /docs/README.md
+SPDXID: SPDXRef-File80
+FileChecksum: SHA1: e54639237f1736c80a115e190295b28d9699221c
+FileChecksum: SHA256: 78a7ba22395edd9e628bdf6be90b7856b7092ee507900d37bea08d310cb3f81c
+FileChecksum: MD5: cfb3c4e3b1e9867c72d13133c9cae328
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /docs/charger-concepts.md
+SPDXID: SPDXRef-File81
+FileChecksum: SHA1: 0cc1817cbfca1b45bedcce635ba153c7a2c4049f
+FileChecksum: SHA256: 303496a25d810db019791a66ded00b658e613d762061795df704fe5cb1ed0c3e
+FileChecksum: MD5: 99897730958cc7b190a2881c5cd6f4de
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /docs/images/charge-controller-structure.svg
+SPDXID: SPDXRef-File82
+FileChecksum: SHA1: 0cd4bcafd0054a9961be2bb2d7ca4c7cbd3f7fd9
+FileChecksum: SHA256: 141f86afc3e5382c08c5a41c08d018a913a6caff1a53ff2166359021eb8a89c6
+FileChecksum: MD5: 366153dc1094b777ca978c8a453b77b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /docs/images/charging-stages.png
+SPDXID: SPDXRef-File83
+FileChecksum: SHA1: 30502a40334d0c080198c96ada618647f4e0c423
+FileChecksum: SHA256: ce88a4de1a716caa9a2959f1fc1e0670cfa251cdd3ef9dc310c106b6d115aab8
+FileChecksum: MD5: 51cf70c815aa82dc898ff3ff1460cec2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /docs/module-overview.md
+SPDXID: SPDXRef-File84
+FileChecksum: SHA1: bb488ce787c6ff56a91245274d483de6cc135754
+FileChecksum: SHA256: d98b07943a0eb06f45538e3c4d12fe8c6465b69f89aea07b763b9287273e3eaf
+FileChecksum: MD5: 63cfdeb1a79a644586e4e73a462764ba
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /docs/zephyr-cheatsheet.md
+SPDXID: SPDXRef-File85
+FileChecksum: SHA1: 9194a89f98a483af80f531f7d4445374bc73ecbc
+FileChecksum: SHA256: 79bcd5a769b48a9b5cf740b46ffec897f9660d9b02b82cc384717bd162fa2310
+FileChecksum: MD5: 0d1b649e69ce4d3fb234de541c3b48ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/.git
+SPDXID: SPDXRef-File86
+FileChecksum: SHA1: 7b559d2a7e6f123165e4ff48c645bc686fe474aa
+FileChecksum: SHA256: 2212e9c418b35c738c3cc05f98e2bd4e7576bef77094752ea517d10759cfb70e
+FileChecksum: MD5: c487fc4d5fdd5087e3a2b20d352b9dc8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/CMakeLists.txt
+SPDXID: SPDXRef-File87
+FileChecksum: SHA1: cc5d29130644ca0a0982bd750eea062117c84f00
+FileChecksum: SHA256: 4b3e20b051022a00cbd3948ba7a8eb899b5889ee104762b1b3763c7f6b4752c1
+FileChecksum: MD5: 7fb73693a15633b1d6536cdcb16f0c79
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/LICENSE
+SPDXID: SPDXRef-File88
+FileChecksum: SHA1: 2576bd083b2485b106c011a3fc2157311d8d4011
+FileChecksum: SHA256: 3e7bede50526352926c2283e640f2823d9f9f2165d1852044c4fb1bbac283106
+FileChecksum: MD5: ba5a06aa56afaf9200c817fc6992087b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/README.md
+SPDXID: SPDXRef-File89
+FileChecksum: SHA1: 8c35b4df35f23ed8f9d61a51aa0719a55715622c
+FileChecksum: SHA256: 4af1e468f393881858efd6d71ba6a018efcabd7a266495df8f321adde74abc89
+FileChecksum: MD5: 1545572eaa52045e7bba557899ec495f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /boards/README.md
+SPDXID: SPDXRef-File9
+FileChecksum: SHA1: 76f9a7ab8530cc92e3091ab524873b4d05b1f91f
+FileChecksum: SHA256: 530092ebeb9e069caf902b5d526675e9f8717589a6d821a9ffea68f9288b198e
+FileChecksum: MD5: 72dcbfd3d25206f03d5791d3f1488608
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/library.json
+SPDXID: SPDXRef-File90
+FileChecksum: SHA1: 8797f6b13c4baa866f11decdc2b336eedee97a4d
+FileChecksum: SHA256: e2e0b6ce9c976ba248d01ae4528192a3ed8424859366d1abe30542c14f40e40c
+FileChecksum: MD5: 28bdd6b810f1d57286a235ab62726600
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/src/adafruit_gfx.cpp
+SPDXID: SPDXRef-File91
+FileChecksum: SHA1: 49ad0b93ce0e92ed9d733aa312b20c8b0165d2eb
+FileChecksum: SHA256: 4b483a10108fee7b5808cacc66bccd623e1cce445033f5de5c380e489fb8b1bb
+FileChecksum: MD5: e974ccab0abbfaa3137cd7d9cfc38420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/src/adafruit_gfx.h
+SPDXID: SPDXRef-File92
+FileChecksum: SHA1: 1ba48b071a2a7ce20d600e92faaf681daaa92aa0
+FileChecksum: SHA256: 69511b6796196c29a5923ce88f28744d41edb13bc91d84ec1f41395452ca1135
+FileChecksum: MD5: f3785ef9e6da0f83b17d8f51a7ab3d8e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/src/glcdfont.h
+SPDXID: SPDXRef-File93
+FileChecksum: SHA1: 5b2c2cfcd84f499c602555f541b2e491cf037b2f
+FileChecksum: SHA256: aacdd6cf304d4c59337e1ae67676a120716d6d65d498e08915dd8d20933d11c1
+FileChecksum: MD5: c6268d88e1d78dcbd61313209290e87a
+LicenseConcluded: BSD-2-Clause
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/src/logo.h
+SPDXID: SPDXRef-File94
+FileChecksum: SHA1: fbb0521159d67e5132acbc3839d5ad694be26fe3
+FileChecksum: SHA256: 312e121647f17e9aa7cc68e3b7310d74142850089d1674aab29cb18697f5468c
+FileChecksum: MD5: 616fe4e2e6bd2b304430259f82f25fca
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/src/oled_ssd1306.cpp
+SPDXID: SPDXRef-File95
+FileChecksum: SHA1: e8e8b90dd3a24c3ad20ca49ece043899fbc50bee
+FileChecksum: SHA256: f67c76a1e53d64d8e2601fae9d6ff73be377be3c926aa25bf7e72159225d8b56
+FileChecksum: MD5: 06990a2f09ffaf6cdd793796b08dd70c
+LicenseConcluded: BSD-2-Clause
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/oled-display/src/oled_ssd1306.h
+SPDXID: SPDXRef-File96
+FileChecksum: SHA1: f16e88040af29137d4fa22774449a78437baa55f
+FileChecksum: SHA256: 725cd7f0ad478a19ed6608c5c3b54776b9ad0e181dc36f802cebb6b39ceaa314
+FileChecksum: MD5: 75c823234d9fb8e7cee17638657b2769
+LicenseConcluded: BSD-2-Clause
+LicenseInfoInFile: BSD-2-Clause
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/readme.txt
+SPDXID: SPDXRef-File97
+FileChecksum: SHA1: 5d0064e673367b774a22c4a7cc81870e46937c17
+FileChecksum: SHA256: 179aba3172c8647a7981be1540c666b35c3393a39a61e26803ff750d99a03ca0
+FileChecksum: MD5: 6518058c605f6f72d106dbcf8dc172dd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/.git
+SPDXID: SPDXRef-File98
+FileChecksum: SHA1: 3427e4616e9c19420769dfd8e637e9d7cb631114
+FileChecksum: SHA256: e4ef5865705ce1d3eef548cd3c6dd45faca14a49ac0736173a0601c6b9cf1c55
+FileChecksum: MD5: c41ba48594854052ddef1c8a79ff7287
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /lib/thingset/.gitignore
+SPDXID: SPDXRef-File99
+FileChecksum: SHA1: e6ea329b8a2d6a36e2af6f79adc4a8ecb1c678a9
+FileChecksum: SHA256: fac80e25ce8a68f77f27a82e8866938dd1e5168b5c9b6af7653ca39d47bba623
+FileChecksum: MD5: 16fd9f865e0384475b2db6ced93e7885
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Relationships
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libre-solar-charge-controller-firmware
+

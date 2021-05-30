@@ -1,0 +1,70 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: zephyr-hello-world-src
+DocumentNamespace: https://example.com/whatever/testdata-zephyr-hello-world-src-1b510a1a1abacb549a3954d23c2b2e1878de70cc
+Creator: Tool: github.com/spdx/tools-golang/builder
+Creator: Tool: github.com/spdx/tools-golang/idsearcher
+Created: 2021-05-30T17:31:53Z
+
+##### Package: zephyr-hello-world-src
+
+PackageName: zephyr-hello-world-src
+SPDXID: SPDXRef-Package-zephyr-hello-world-src
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 1b510a1a1abacb549a3954d23c2b2e1878de70cc
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: /CMakeLists.txt
+SPDXID: SPDXRef-File0
+FileChecksum: SHA1: afbcc69ab3032f90872fb6e25dbfe49910a0e937
+FileChecksum: SHA256: 0c430649569ff984f49eee033c6e6b2d896cab93f9c5a5a713f2f7125b76bdbb
+FileChecksum: MD5: 06691d960b45a805c40da7d018194360
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+FileName: /README.rst
+SPDXID: SPDXRef-File1
+FileChecksum: SHA1: baea08c0fc97a96d0290491014c0ef2b38f4d223
+FileChecksum: SHA256: cee6b3dd78fb42d93d7990aaf3e39b7c49cde1a6540ced01346fe8669e535a20
+FileChecksum: MD5: 1a33216f57130f8275ffce74bd6c35af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /prj.conf
+SPDXID: SPDXRef-File2
+FileChecksum: SHA1: e3376fb5fac0dc7c52a27db53d2e2c410f6c9d1e
+FileChecksum: SHA256: 81661c2d549ab252e266fcaad53350640c58a6d4d17dad54268e3cfc1166b6b3
+FileChecksum: MD5: bef1ec069baae7feccefe18cce046435
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /sample.yaml
+SPDXID: SPDXRef-File3
+FileChecksum: SHA1: 9a016956d5a20cf3b32a8221785e7051c27edec6
+FileChecksum: SHA256: 70f631047cd844bc2c749f7e2786b29daa020bfbd5d34108de7f99b3cdcb037f
+FileChecksum: MD5: 1149d3354c69cd275fe5810017ad5d0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /src/main.c
+SPDXID: SPDXRef-File4
+FileChecksum: SHA1: 42ec6def920d00148712b0021f3a2eb5f2721a10
+FileChecksum: SHA256: 4421041a62b6525af2ea10960d9441cbe533adf8c20d204cdb1000287f427d58
+FileChecksum: MD5: 338b991b112c6738e8bc215b5b9ad5f6
+LicenseConcluded: Apache-2.0
+LicenseInfoInFile: Apache-2.0
+FileCopyrightText: NOASSERTION
+
+##### Relationships
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zephyr-hello-world-src
+

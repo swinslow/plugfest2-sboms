@@ -1,0 +1,61 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: libre-solar-charge-controller-firmware-built
+DocumentNamespace: https://example.com/whatever/testdata-libre-solar-charge-controller-firmware-built-180ce0c67b82276fc11f8a488685e8e070282b8c
+Creator: Tool: github.com/spdx/tools-golang/builder
+Creator: Tool: github.com/spdx/tools-golang/idsearcher
+Created: 2021-05-30T17:27:35Z
+
+##### Package: libre-solar-charge-controller-firmware-built
+
+PackageName: libre-solar-charge-controller-firmware-built
+SPDXID: SPDXRef-Package-libre-solar-charge-controller-firmware-built
+PackageDownloadLocation: NOASSERTION
+FilesAnalyzed: true
+PackageVerificationCode: 180ce0c67b82276fc11f8a488685e8e070282b8c
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseInfoFromFiles: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+
+FileName: /Readme.md
+SPDXID: SPDXRef-File0
+FileChecksum: SHA1: b3edec38166cb4747ce67e7e229cbe9279e011c3
+FileChecksum: SHA256: e2353c05351f52042183f05cded5c07f6dc91667c1407a0368085b5547b3ee7a
+FileChecksum: MD5: 2c2fdcabb9e3a46bbc60f9e235ec0389
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr.bin
+SPDXID: SPDXRef-File1
+FileChecksum: SHA1: 3e5510346a723c4ecdd698330436d1d89f2e6428
+FileChecksum: SHA256: d2ed7cb0656f413b8385f98b348259cebf12d439dbb384996eb79f8979627349
+FileChecksum: MD5: fdc8b20a54f7960b204abce20f8dae98
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr.elf
+SPDXID: SPDXRef-File2
+FileChecksum: SHA1: a0c9fca9a551a935026c86fb56c4af563f0a926f
+FileChecksum: SHA256: 8fb5f7e0e48d81bfbac3f8339e3749c9fb39735494f95a094818a4773d952132
+FileChecksum: MD5: b7f937d8a1fbd71a0a48f16c845ed36e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+FileName: /zephyr.hex
+SPDXID: SPDXRef-File3
+FileChecksum: SHA1: c70fc409d4003e437ea2e84d9546de8083333ab2
+FileChecksum: SHA256: da6a3f493a562ea6dbb89f97b1b39b90f78456f8821a5640848c4486ab7f66f6
+FileChecksum: MD5: 2505d99bb160d8b05e8892026209923d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: NOASSERTION
+FileCopyrightText: NOASSERTION
+
+##### Relationships
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libre-solar-charge-controller-firmware-built
+
