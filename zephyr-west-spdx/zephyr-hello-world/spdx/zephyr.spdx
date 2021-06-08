@@ -2,9 +2,9 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: zephyr-sources
-DocumentNamespace: http://spdx.org/spdxdocs/zephyr-12962d35-d1b6-43b5-8ce9-2ee31f7d205f/zephyr
+DocumentNamespace: https://swinslow.net/plugfest2-sboms/zephyr-hello-world/spdx/zephyr
 Creator: Tool: Zephyr SPDX builder
-Created: 2021-05-30T17:08:21Z
+Created: 2021-06-08T00:55:16Z
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-sources
 
@@ -20,7 +20,7 @@ PackageLicenseInfoFromFiles: MIT
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
 FilesAnalyzed: true
-PackageVerificationCode: 546f71943bd1c197036e26cc82326391e01d0a28
+PackageVerificationCode: 8972b62aba2e025e6700a5a4053c6b9204d6d88e
 
 FileName: ./modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c
 SPDXID: SPDXRef-File-nrfx-clock.c
@@ -432,8 +432,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/kernel/mutex.c
 SPDXID: SPDXRef-File-mutex.c
-FileChecksum: SHA1: 2fda822b4de3055cce9cd9586025282bf559bc84
-FileChecksum: SHA256: 8e0eb195dee942195a13215a14c57726c50a4348ed6aada5258a5affd0b1bb09
+FileChecksum: SHA1: fa06c503a2ffc7a03959a95d017152f56237920f
+FileChecksum: SHA256: a2e9656c89f0d016bcde773b195bc8fe0d3ac557e6a74a6e4a6a6a5c598b0ed5
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION

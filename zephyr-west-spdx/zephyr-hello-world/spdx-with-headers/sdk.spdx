@@ -2,9 +2,9 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: sdk
-DocumentNamespace: http://spdx.org/spdxdocs/zephyr-922a6f46-395a-450f-9c59-8097c6d30bba/sdk
+DocumentNamespace: https://swinslow.net/plugfest2-sboms/zephyr-hello-world/spdx-with-headers/sdk
 Creator: Tool: Zephyr SPDX builder
-Created: 2021-05-30T17:08:33Z
+Created: 2021-06-08T01:04:35Z
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-sdk
 
