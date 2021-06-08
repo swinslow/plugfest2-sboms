@@ -1,4 +1,4 @@
-# Zephyr west spdx -- hello-world
+# Zephyr west spdx -- charge-controller-firmware
 
 Build analysis SBOM, created using `west spdx` command built into Zephyr as of v2.6.0
 
@@ -6,14 +6,14 @@ See: https://docs.zephyrproject.org/latest/guides/west/zephyr-cmds.html#software
 
 ## Process
 
-Following build using instructions at https://github.com/swinslow/plugfest2-content/tree/main/zephyr-hello-world:
+Following build using instructions at https://github.com/swinslow/plugfest2-content/tree/main/libre-solar-charge-controller-firmware/bin-rebuild:
 
 ```
-# for standard Zephyr west spdx output
-> west spdx -d build -n https://swinslow.net/plugfest2-sboms/zephyr-hello-world/spdx
+# generate SPDX documents
+> west spdx -d build -n https://swinslow.net/plugfest2-sboms/charge-controller-firmware/spdx
 
-# for output with header includes
-> west spdx -d build -n https://swinslow.net/plugfest2-sboms/zephyr-hello-world/spdx-with-headers \
+# generate more detailed SPDX documents, analyzing the header include files
+> west spdx -d build -n https://swinslow.net/plugfest2-sboms/charge-controller-firmware/spdx-with-headers \
 >   -s build/spdx-with-headers \
 >   --analyze-includes \
 >   --include-sdk
@@ -24,7 +24,7 @@ Following build using instructions at https://github.com/swinslow/plugfest2-cont
 See the Zephyr docs linked above for details about the multiple SPDX SBOMs that
 are created as part of the above process.
 
-The second version ("output with header includes") also analyzes which C header
+The second version ("analyzing the header include files") also analyzes which C header
 files are included during the build process. Some of these headers originate
 from the [Zephyr SDK](https://github.com/zephyrproject-rtos/sdk-ng) and therefore
 this one includes a fourth SBOM for those included files.
