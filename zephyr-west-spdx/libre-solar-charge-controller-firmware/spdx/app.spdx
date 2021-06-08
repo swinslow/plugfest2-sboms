@@ -2,9 +2,9 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: app-sources
-DocumentNamespace: http://spdx.org/spdxdocs/zephyr-b247a197-e9a3-42ea-9de9-3358f0bf21c1/app
+DocumentNamespace: https://swinslow.net/plugfest2-sboms/charge-controller-firmware/spdx/app
 Creator: Tool: Zephyr SPDX builder
-Created: 2021-05-30T16:20:22Z
+Created: 2021-06-08T01:29:31Z
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-app-sources
 

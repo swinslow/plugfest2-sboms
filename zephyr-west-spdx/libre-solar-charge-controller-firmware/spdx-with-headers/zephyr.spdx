@@ -2,9 +2,9 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: zephyr-sources
-DocumentNamespace: http://spdx.org/spdxdocs/zephyr-0b29e1b0-4514-49d6-9a96-b16813634f88/zephyr
+DocumentNamespace: https://swinslow.net/plugfest2-sboms/charge-controller-firmware/spdx-with-headers/zephyr
 Creator: Tool: Zephyr SPDX builder
-Created: 2021-05-30T16:22:31Z
+Created: 2021-06-08T01:32:35Z
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-sources
 
@@ -18,7 +18,7 @@ PackageLicenseInfoFromFiles: Apache-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
 FilesAnalyzed: true
-PackageVerificationCode: c72298837ecc24d0322d8452c173c6b393efcd47
+PackageVerificationCode: 76b169bae90fbf247c7d7690e74f1bbbc9a89731
 
 FileName: ./modules/hal/cmsis/CMSIS/Core/Include/cmsis_compiler.h
 SPDXID: SPDXRef-File-cmsis-compiler.h
@@ -1182,8 +1182,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/drivers/can/can_mcan.c
 SPDXID: SPDXRef-File-can-mcan.c
-FileChecksum: SHA1: 3b26054028fd900bfc3b4fb250a81b01c13df8cc
-FileChecksum: SHA256: 2ae8b61fa337297161fe1766a1f4cbac99096cffc6d8bcac9e4c7fa9855c8d71
+FileChecksum: SHA1: df6e25eec97fc76044658758760950048b1d2d33
+FileChecksum: SHA256: 54527ce59b8bba974f1e3a82bf91807d9b24fa62b5953baa23ebf739b6c7bcb9
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -1822,8 +1822,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/include/drivers/can.h
 SPDXID: SPDXRef-File-can.h
-FileChecksum: SHA1: 72a71d8c7bed58f7bf78bb3009df8cc7ffb42ff7
-FileChecksum: SHA256: 82f04969df782e44057e05f8c8a6a6993fe2bfa660deedbd0f93c43ccbe2a8b8
+FileChecksum: SHA1: 35993e297e12556fb79eaad407221dd6ce314d33
+FileChecksum: SHA256: dd445ee6313fe164f09699f367a9f9d562f90dac6b00fe7802cede159fa618e3
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -1926,8 +1926,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/include/drivers/timer/system_timer.h
 SPDXID: SPDXRef-File-system-timer.h
-FileChecksum: SHA1: 7511583e8f90e34c0d3bc54d9d5e34db39fc33df
-FileChecksum: SHA256: 623113b50b98e442d642f7fb768d5429a722e22a4454d7756e862a7aa3923c8a
+FileChecksum: SHA1: a6697d8831e0ef78b77da5638433b5eb853905e0
+FileChecksum: SHA256: f4110012b8f4560c3294afe1ef8d13185cdba6236e00351681e58b625d49d654
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -2126,8 +2126,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/include/logging/log.h
 SPDXID: SPDXRef-File-log.h
-FileChecksum: SHA1: 5b2d0a8312a05ece6a12a7c5e304a77c80a26319
-FileChecksum: SHA256: d142324d1175db8f811501b4a52e7cdd4e32e59f7cfcb8f3a1d856bb4f3fbc52
+FileChecksum: SHA1: 5765ab2ec1cfa6d19d0cf26bb7a28756a815a056
+FileChecksum: SHA256: a7e08c7536722bb365da436b60623eaf59f5d487d9fdbd83493643899712c78a
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -2886,8 +2886,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/kernel/mutex.c
 SPDXID: SPDXRef-File-mutex.c
-FileChecksum: SHA1: 2fda822b4de3055cce9cd9586025282bf559bc84
-FileChecksum: SHA256: 8e0eb195dee942195a13215a14c57726c50a4348ed6aada5258a5affd0b1bb09
+FileChecksum: SHA1: fa06c503a2ffc7a03959a95d017152f56237920f
+FileChecksum: SHA256: a2e9656c89f0d016bcde773b195bc8fe0d3ac557e6a74a6e4a6a6a5c598b0ed5
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -3006,8 +3006,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/lib/libc/newlib/libc-hooks.c
 SPDXID: SPDXRef-File-libc-hooks.c
-FileChecksum: SHA1: 7ba63a906cf94f4696847b2d6253b9efdd6ddae8
-FileChecksum: SHA256: a5cbc0f06045b18cc41c9996a74981be7262c6ecdb8c750a0c34ade3c1db13df
+FileChecksum: SHA1: 6909680ce72f084553e89c8a52563f4b3a2eed61
+FileChecksum: SHA256: 366e29460df98f2685dc3e3152c36a4a895619842ff514211fe94e9718afc49b
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION

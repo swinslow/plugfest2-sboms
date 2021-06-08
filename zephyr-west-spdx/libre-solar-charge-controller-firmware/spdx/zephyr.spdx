@@ -2,9 +2,9 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: zephyr-sources
-DocumentNamespace: http://spdx.org/spdxdocs/zephyr-b247a197-e9a3-42ea-9de9-3358f0bf21c1/zephyr
+DocumentNamespace: https://swinslow.net/plugfest2-sboms/charge-controller-firmware/spdx/zephyr
 Creator: Tool: Zephyr SPDX builder
-Created: 2021-05-30T16:20:22Z
+Created: 2021-06-08T01:29:31Z
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-zephyr-sources
 
@@ -18,7 +18,7 @@ PackageLicenseInfoFromFiles: Apache-2.0
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
 FilesAnalyzed: true
-PackageVerificationCode: 8d7d728d3d8a00fa264c495b4ba1495adff849c6
+PackageVerificationCode: ebbc83a6d8f5bde0bd5e53b64021e0165d17cb6b
 
 FileName: ./modules/hal/stm32/stm32cube/stm32g4xx/drivers/src/stm32g4xx_hal.c
 SPDXID: SPDXRef-File-stm32g4xx-hal.c
@@ -286,8 +286,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/drivers/can/can_mcan.c
 SPDXID: SPDXRef-File-can-mcan.c
-FileChecksum: SHA1: 3b26054028fd900bfc3b4fb250a81b01c13df8cc
-FileChecksum: SHA256: 2ae8b61fa337297161fe1766a1f4cbac99096cffc6d8bcac9e4c7fa9855c8d71
+FileChecksum: SHA1: df6e25eec97fc76044658758760950048b1d2d33
+FileChecksum: SHA256: 54527ce59b8bba974f1e3a82bf91807d9b24fa62b5953baa23ebf739b6c7bcb9
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -550,8 +550,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/kernel/mutex.c
 SPDXID: SPDXRef-File-mutex.c
-FileChecksum: SHA1: 2fda822b4de3055cce9cd9586025282bf559bc84
-FileChecksum: SHA256: 8e0eb195dee942195a13215a14c57726c50a4348ed6aada5258a5affd0b1bb09
+FileChecksum: SHA1: fa06c503a2ffc7a03959a95d017152f56237920f
+FileChecksum: SHA256: a2e9656c89f0d016bcde773b195bc8fe0d3ac557e6a74a6e4a6a6a5c598b0ed5
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
@@ -662,8 +662,8 @@ FileCopyrightText: NOASSERTION
 
 FileName: ./zephyr/lib/libc/newlib/libc-hooks.c
 SPDXID: SPDXRef-File-libc-hooks.c
-FileChecksum: SHA1: 7ba63a906cf94f4696847b2d6253b9efdd6ddae8
-FileChecksum: SHA256: a5cbc0f06045b18cc41c9996a74981be7262c6ecdb8c750a0c34ade3c1db13df
+FileChecksum: SHA1: 6909680ce72f084553e89c8a52563f4b3a2eed61
+FileChecksum: SHA256: 366e29460df98f2685dc3e3152c36a4a895619842ff514211fe94e9718afc49b
 LicenseConcluded: Apache-2.0
 LicenseInfoInFile: Apache-2.0
 FileCopyrightText: NOASSERTION
